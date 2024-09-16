@@ -69,12 +69,13 @@ lrwxrwxrwx 1 root root 17 Dec 8 06:58 libhistory.so.8 -> libhistory.so.8.1
 
 As the above output indicates version 8 for both libraries (libreadline.so.8 ) (libhistory.so.8) has been installed. All we need to do now is create a symlink from version 8 to version 6 as can be seen below.
 
-Create symlink for libreadline.so.8 and libhistory.so.8 to libreadline.so.6 and libhistory.so.6
+## Create symlink for libreadline.so.8 and libhistory.so.8 to libreadline.so.6 and libhistory.so.6
 ```
 root@kali:/lib/x86_64-linux-gnu# sudo ln -s libreadline.so.8 libreadline.so.6
 root@kali:/lib/x86_64-linux-gnu# sudo ln -s libhistory.so.8 libhistory.so.6
 ```
 
+## Rerun NFSShell 
 Now that the symlinks have been created nfsshell should run without issue.
 ```
 root@kali:/opt/nfsshell# ./nfsshell_64
