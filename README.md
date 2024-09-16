@@ -47,8 +47,7 @@ root@kali:/opt/nfsshell# ./nfsshell_64
 
 ## Fixing  libreadline.so.6 and libhistory.so.6
 
-If the above error occurs you will need to create a symlink as the nsfshell binry is looking for version 6 of two files called libreadline.so.6 and libhistory.so.6. These are old versions and
-not included in the latest install of the libreadline-dev pachage. The libreadline-dev will have installed the latest versions.
+If the above error occurs you will need to create a symlink as the nsfshell binary is looking for version 6 of two files called libreadline.so.6 and libhistory.so.6. These are old versions and not included in the latest install of the libreadline-dev pachage. The libreadline-dev will have installed the latest versions.
 
 Navigate to the /lib/x86_64-linux-gnu/ directory and list the two file names to see what version was installed as can be seen below
 
