@@ -12,14 +12,14 @@ Useful tool to explore and navigate NFS shares.
 ```
 root@kali:/opt# wget https://www.phillips321.co.uk/downloads/nfsshell_64
 
---2021-03-02 13:58:21-- https://www.phillips321.co.uk/downloads/nfsshell_64
+---- https://www.phillips321.co.uk/downloads/nfsshell_64
 Resolving www.phillips321.co.uk (www.phillips321.co.uk)... 83.151.205.157
 Connecting to www.phillips321.co.uk (www.phillips321.co.uk)|83.151.205.157|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 161704 (158K)
 Saving to: ‘nfsshell_64’
 nfsshell_64 100%[==============================================>] 157.91K --.-KB/s in 0.05s
-2021-03-02 13:58:22 (3.11 MB/s) - ‘nfsshell_64’ saved [161704/161704]
+ (3.11 MB/s) - ‘nfsshell_64’ saved [161704/161704]
 ```
 
 ## Set execution permissions:
