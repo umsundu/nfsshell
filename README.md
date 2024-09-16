@@ -37,9 +37,9 @@ drwxr-xr-x 10 root root 4096 Mar 2 13:59 ..
 root@kali:/opt/nfsshell# chmod +x nfsshell_64
 ```
 
-## Install the required libraries (if not already insatlled):
+## Install the required libraries (if not already installed ):
 
-**Note** - Version 8 of the libreadline.so.8 and libhistory.so.8 should already be installed under  /lib/x86_64-linux-gnu/. If not install as below. 
+**Note** - Version 8 of the libreadline.so.8 and libhistory.so.8 should already be installed at path `/lib/x86_64-linux-gnu/`. If not install as below. 
 
 `sudo apt-get install libreadline-dev`
 
